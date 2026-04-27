@@ -33,15 +33,15 @@ num1 = 24
 
 #print(my_str.count('a'))                                                    #To find the specific times a sub-string apearred in a string.
 
-first_name = 'John'
-last_name = 'Doe'
+first_name = 'Rahul'
+last_name = 'Raj'
 full_name = first_name + ' ' + last_name
 address = '123 Main Street'
 address += ', Apartment 4B'
-employee_age = 28
+employee_age = 22
 employee_info = full_name + ' is ' + str(employee_age) + ' years old'
 print(employee_info)
-experience_years = 5
+experience_years = 2
 experience_info = 'Experience: ' + str(experience_years) + ' years'
 print(experience_info)
 position = 'Data Analyst'

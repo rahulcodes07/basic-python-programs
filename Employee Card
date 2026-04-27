@@ -1,1 +1,59 @@
+my_str = ' Hii, I am Rahul. We are learning Python. '
+str2 = 'Maybe, we will check down now.'
+num1 = 24
 
+#Example of string slicing in three different ways :-
+#print(my_str[3:10])
+#print (my_str[:8])
+#print (my_str[3:]) 
+
+
+#print(my_str[::-1])   #This will print the reverse of the string.
+
+#print(my_str[3:15:2]) #This will print all the 2nd characters between 3rd and 15th including 15th.
+
+#                       DIFFERENT OPERATIONS WITH STRINGS
+
+#my_uppercase_str = my_str.upper()
+#print(my_uppercase_str)                                                     #For uppercase
+
+#my_lowercase_str = my_str.lower()
+#print(my_lowercase_str)                                                     #For lowercase
+
+#my_trimmed_str= my_str.strip()
+#print(my_trimmed_str)                                                       #To remove spaces present if any, in the start and end of string.
+
+#my_updated_str= my_str.replace('are learning', 'already learned')
+#print(my_updated_str)                                                       #Replace any specific character/s in the string with desired character/s.
+
+#print(str2.strip())
+
+#print(my_str.find('Messi'))                                                 #Find the place of the start of any character/s in the string and return
+                                                                            #if none found
+
+#print(my_str.count('a'))                                                    #To find the specific times a sub-string apearred in a string.
+
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main Street'
+address += ', Apartment 4B'
+employee_age = 28
+employee_info = full_name + ' is ' + str(employee_age) + ' years old'
+print(employee_info)
+experience_years = 5
+experience_info = 'Experience: ' + str(experience_years) + ' years'
+print(experience_info)
+position = 'Data Analyst'
+salary = 75000
+employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
+print(employee_card)
+employee_code = 'DEV-2026-JD-001'
+department = employee_code[0:3]
+print(department)
+year_code = employee_code[4:8]
+print(year_code)
+initials = employee_code[9:11]
+print(initials)
+last_three = employee_code[-3:]
+print(last_three)

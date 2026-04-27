@@ -1,37 +1,3 @@
-my_str = ' Hii, I am Rahul. We are learning Python. '
-str2 = 'Maybe, we will check down now.'
-num1 = 24
-
-#Example of string slicing in three different ways :-
-#print(my_str[3:10])
-#print (my_str[:8])
-#print (my_str[3:]) 
-
-
-#print(my_str[::-1])   #This will print the reverse of the string.
-
-#print(my_str[3:15:2]) #This will print all the 2nd characters between 3rd and 15th including 15th.
-
-#                       DIFFERENT OPERATIONS WITH STRINGS
-
-#my_uppercase_str = my_str.upper()
-#print(my_uppercase_str)                                                     #For uppercase
-
-#my_lowercase_str = my_str.lower()
-#print(my_lowercase_str)                                                     #For lowercase
-
-#my_trimmed_str= my_str.strip()
-#print(my_trimmed_str)                                                       #To remove spaces present if any, in the start and end of string.
-
-#my_updated_str= my_str.replace('are learning', 'already learned')
-#print(my_updated_str)                                                       #Replace any specific character/s in the string with desired character/s.
-
-#print(str2.strip())
-
-#print(my_str.find('Messi'))                                                 #Find the place of the start of any character/s in the string and return
-                                                                            #if none found
-
-#print(my_str.count('a'))                                                    #To find the specific times a sub-string apearred in a string.
 
 first_name = 'Rahul'
 last_name = 'Raj'
